@@ -15,7 +15,7 @@ def on_activate():
         transformed_text = switch_layout(var)
 
         # Копирование преобразованного текста в буфер обмена
-        os.system(f'echo "{transformed_text}" | xsel -b')
+        os.system(f'echo -n "{transformed_text}" | xsel -b')
 
         # print(
         #     "Преобразованный текст скопирован в буфер обмена. Нажмите Ctrl+V для вставки.")
