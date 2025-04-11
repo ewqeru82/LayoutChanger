@@ -8,10 +8,14 @@
 Установите необходимые библиотеки Python:
 
 
-`pip install pynput`
+```
+pip install pynput
+```
 Убедитесь, что у вас установлен xsel:
 
-`sudo apt-get install xsel`
+```
+sudo apt-get install xsel
+```
 
 Использование
 Запустите скрипт.
