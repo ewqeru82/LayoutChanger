@@ -33,7 +33,7 @@ listener = keyboard.GlobalHotKeys({
     '<ctrl>+y': on_activate
 })
 
-# print("Нажмите Ctrl+Shift для активации горячей клавиши.")
+print("Нажмите Ctrl+Y для активации горячей клавиши.")
 listener.start()
 
 listener.join()
